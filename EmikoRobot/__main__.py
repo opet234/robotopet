@@ -91,21 +91,23 @@ PM_START_TEXT = """
 ✪ Hit /help to see my available commands.
 """
 
+
 buttons = [
-    [
-        InlineKeyboardButton(text=f"About {dispatcher.bot.first_name}", callback_data="emiko_"),
+    ]
+        InlineKeyboardButton(text="⛑️ Help & Commands", url="https://t.me/RaisaAkemibot?Start=help"),
+        InlineKeyboardButton(text="💌 Instagram", url="https://instagram.com/nosudouser"),
     ],
     [
-        InlineKeyboardButton(text="Get Help", callback_data="help_back"),
+        InlineKeyboardButton(text="🤖 Group Support", url="https://t.me/kememlupink"),
         InlineKeyboardButton(
-            text="Try inline!​​", switch_inline_query_current_chat=""
-        ),
+            text="🗿 Gbanned Logs", url="https://t.me/Gbanneds"),
     ],
     [
         InlineKeyboardButton(
             text="➗ Add Me To Your Group ➗", url=f"t.me/{bu}?startgroup=new"),
     ],
 ]
+
 
 
 HELP_STRINGS = """
